@@ -31,6 +31,7 @@ public class CapturedBeastsPanel : Element
                 if (beastContainer == null || beastContainer.IsVisible == false) continue;
 
                 beasts.AddRange(beastContainer.GetChildAtIndex(1).Children
+                    .Where(beast => beast.IsVisible)
                     .Select(beast => GetObject<CapturedBeast>(beast.Address)));
             }
 

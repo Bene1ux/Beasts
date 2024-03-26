@@ -19,6 +19,12 @@ public partial class Beasts : BaseSettingsPlugin<BeastsSettings>
     public override bool Initialise()
     {
         Prices = PoeNinja.GetBeastsPrices().Result;
+        Settings.UpdatePrices.OnPressed += () =>
+        {
+            LogMessage("[Beast] Updating prices");
+            Prices = PoeNinja.GetBeastsPrices().Result;
+            LogMessage("[Beast] Updated prices");
+        };
         return true;
     }
 
@@ -36,6 +42,8 @@ public partial class Beasts : BaseSettingsPlugin<BeastsSettings>
     public override void EntityAdded(Entity entity)
     {
         if (entity.Rarity != MonsterRarity.Rare) return;
+        //entity.Stats[GameStat.IsCapturableMonster]
+        //entity.Stats[GameStat.MovementVelocityPct] 75 - > -100 = captured
         foreach (var _ in BeastsDatabase.AllBeasts.Where(beast => entity.Metadata == beast.Path))
         {
             DebugWindow.LogMsg($"Entity Added: {entity.Metadata}");

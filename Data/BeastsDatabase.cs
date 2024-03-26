@@ -10,12 +10,14 @@ public static class BeastsDatabase
         {
             DisplayName = "Vivid Vulture",
             Path = "Metadata/Monsters/LeagueHarvest/Green/HarvestVultureParasiteT3",
+            Priority = 100,
             Crafts = ["Transform an Item: Reroll a Synthesis Implicit Modifier"]
         },
         new Beast
         {
             DisplayName = "Craicic Chimeral",
             Path = "Metadata/Monsters/LeagueBestiary/GemFrogBestiary",
+            Priority = 100,
             Crafts =
             [
                 "Create an Imprint: Of a Magic Item"
@@ -25,6 +27,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Wild Hellion Alpha",
             Path = "Metadata/Monsters/LeagueHarvest/Red/HarvestHellionT3",
+            Priority = 100,
             Crafts =
             [
                 "Modify Mods on an Item: Reroll a Watcher's Eye Modifier"
@@ -34,6 +37,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Wild Bristle Matron",
             Path = "Metadata/Monsters/LeagueHarvest/Red/HarvestBeastT3",
+            Priority = 100,
             Crafts =
             [
                 "Modify Mods on an Item: Add a crafted Meta-modifier to a non-Unique Item"
@@ -43,6 +47,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumus, First of the Night",
             Path = "Metadata/Monsters/LeagueBestiary/SpiderPlatedBestiarySpiritBoss",
+            Priority = 50,
             Crafts =
             [
                 "Craft an Aspect Skill onto an Item: Aspect of the Spider skill"
@@ -52,6 +57,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Vivid Watcher",
             Path = "Metadata/Monsters/LeagueHarvest/Green/HarvestSquidT3_",
+            Priority = 100,
             Crafts =
             [
                 "Transform an Item: Reroll an Awakened Support Gem"
@@ -61,6 +67,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farrul, First of the Plains",
             Path = "Metadata/Monsters/LeagueBestiary/TigerBestiarySpiritBoss",
+            Priority = 100,
             Crafts =
             [
                 "Craft an Aspect Skill onto an Item: Aspect of the Cat skill"
@@ -70,6 +77,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawal, First of the Sky",
             Path = "Metadata/Monsters/LeagueBestiary/MarakethBirdSpiritBoss",
+            Priority = 50,
             Crafts =
             [
                 "Craft an Aspect Skill onto an Item: Aspect of the Avian skill"
@@ -79,6 +87,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Frost Hellion Alpha",
             Path = "Metadata/Monsters/LeagueBestiary/HellionBestiary2",
+            Priority = 5,
             Crafts =
             [
                 "Create Currency Items: A Stack of 3 Orbs of Horizons",
@@ -89,6 +98,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craiceann, First of the Deep",
             Path = "Metadata/Monsters/LeagueBestiary/NessaCrabBestiarySpiritBoss",
+            Priority = 50,
             Crafts =
             [
                 "Craft an Aspect Skill onto an Item: Aspect of the Crab skill"
@@ -98,6 +108,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Wild Brambleback",
             Path = "Metadata/Monsters/LeagueHarvest/Red/HarvestBrambleHulkT3",
+            Priority = 50,
             Crafts =
             [
                 "Transform an Item: Increase level of non-Corrupted Awakened Gem by 1"
@@ -107,6 +118,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Primal Rhex Matriarch",
             Path = "Metadata/Monsters/LeagueHarvest/Blue/HarvestRhexT3",
+            Priority = 50,
             Crafts =
             [
                 "Create an Item: Synthesis Unique Map"
@@ -116,6 +128,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Tiger Alpha",
             Path = "Metadata/Monsters/LeagueBestiary/TigerBestiary",
+            Priority = 100,
             Crafts =
             [
                 "Open a Portal: to Farrul's Den"
@@ -125,6 +138,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Plagued Arachnid",
             Path = "Metadata/Monsters/LeagueBestiary/SpiderPlagueBestiary",
+            Priority = 50,
             Crafts =
             [
                 "Split an Item Into Two: With Half the Mods on Each Item"
@@ -134,6 +148,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Hybrid Arachnid",
             Path = "Metadata/Monsters/LeagueBestiary/SpiderPlatedBestiary",
+            Priority = 50,
             Crafts =
             [
                 "Open a Portal: to Fenumus' Lair"
@@ -143,6 +158,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Rhex",
             Path = "Metadata/Monsters/LeagueBestiary/Avians/MarakethBirdBestiary",
+            Priority = 50,
             Crafts =
             [
                 "Open a Portal: to Saqawal's Roost"
@@ -152,6 +168,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Wolf Alpha",
             Path = "Metadata/Monsters/LeagueBestiary/WolfBestiary",
+            Priority = 20,
             Crafts =
             [
                 "Modify Mods on an Item: Add a Prefix, Remove a Random Suffix"
@@ -161,6 +178,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Spider Crab",
             Path = "Metadata/Monsters/LeagueBestiary/CrabSpiderBestiary",
+            Priority = 50,
             Crafts =
             [
                 "Open a Portal: to Craiceann's Cove"
@@ -170,6 +188,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Primal Crushclaw",
             Path = "Metadata/Monsters/LeagueHarvest/Blue/HarvestNessaCrabT3",
+            Priority = 10,
             Crafts =
             [
                 "Gain Atlas Crafts: Gain a free use of each Map Crafting Option"
@@ -179,6 +198,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Vassal",
             Path = "Metadata/Monsters/LeagueBestiary/ParasiticSquidBestiary",
+            Priority = 100,
             Crafts =
             [
                 "Corrupt an Item: To have 30% Quality",
@@ -189,6 +209,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Vivid Abberarach",
             Path = "Metadata/Monsters/LeagueHarvest/Green/HarvestPlatedScorpionT3",
+            Priority = 10,
             Crafts =
             [
                 "Create an Item: Shaper Guardian, Elder Guardian or Conqueror Map"
@@ -198,6 +219,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Lynx Alpha",
             Path = "Metadata/Monsters/LeagueBestiary/LynxBestiary",
+            Priority = 10,
             Crafts =
             [
                 "Modify Mods on an Item: Add a Suffix, Remove a Random Prefix"
@@ -207,6 +229,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Maw",
             Path = "Metadata/Monsters/LeagueBestiary/FrogBestiary",
+            Priority = 10,
             Crafts =
             [
                 "Modify Mods on an Item: Add a Mod to a Shaper Item",
@@ -221,6 +244,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Ape",
             Path = "Metadata/Monsters/LeagueBestiary/MonkeyBloodBestiary",
+            Priority = 5,
             Crafts =
             [
                 "Create a Unique: Belt"
@@ -230,6 +254,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Primal Cystcaller",
             Path = "Metadata/Monsters/LeagueHarvest/Blue/HarvestGoatmanT3",
+            Priority = 10,
             Crafts =
             [
                 "Gain Atlas Crafts: Gain one of each Atlas Mission"
@@ -239,6 +264,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Savage Crab",
             Path = "Metadata/Monsters/LeagueBestiary/CrabParasiteLargeBestiary_",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Item",
@@ -249,6 +275,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Vulture",
             Path = "Metadata/Monsters/LeagueBestiary/VultureBestiary",
+            Priority = 100,
             Crafts =
             [
                 "Create an Item: Fully-linked Six-socket Rare"
@@ -258,6 +285,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Cobra",
             Path = "Metadata/Monsters/LeagueBestiary/SnakeBestiary1",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Mace or Sceptre"
@@ -267,6 +295,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Pit Hound",
             Path = "Metadata/Monsters/LeagueBestiary/PitbullBestiary",
+            Priority = 10,
             Crafts =
             [
                 "Create an Item: Level 21 Corrupted Gem"
@@ -276,6 +305,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Ursa",
             Path = "Metadata/Monsters/LeagueBestiary/DropBearBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Body Armour"
@@ -285,6 +315,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Queen",
             Path = "Create a Unique: Staff",
+            Priority = -1,
             Crafts =
             [
                 "Metadata/Monsters/LeagueBestiary/InsectSpawnerBestiary",
@@ -295,6 +326,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Goliath",
             Path = "Metadata/Monsters/LeagueBestiary/BestiarySpiker",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Bow",
@@ -305,6 +337,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Devourer",
             Path = "Metadata/Monsters/LeagueBestiary/RootSpiderBestiary_",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Shield or Quiver",
@@ -315,6 +348,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Watcher",
             Path = "Metadata/Monsters/LeagueBestiary/SquidBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Claw or Dagger",
@@ -325,6 +359,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Chimeral",
             Path = "Metadata/Monsters/LeagueBestiary/IguanaBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create Currency Items: A Stack of 10 Random Currency"
@@ -334,6 +369,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Magma Hound",
             Path = "Metadata/Monsters/LeagueBestiary/HoundBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create an Item: 23% Quality Corrupted Gem"
@@ -343,6 +379,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Taurus",
             Path = "Metadata/Monsters/LeagueBestiary/BestiaryBull",
+            Priority = 5,
             Crafts =
             [
                 "Create a Unique: Map"
@@ -352,6 +389,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Squid",
             Path = "Metadata/Monsters/LeagueBestiary/SeaWitchSpawnBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Rare: Talisman"
@@ -361,6 +399,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Shield Crab",
             Path = "Metadata/Monsters/LeagueBestiary/ShieldCrabBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create Currency Items: A Stack of 4 Jeweller's Orbs",
@@ -371,6 +410,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Craicic Sand Spitter",
             Path = "Metadata/Monsters/LeagueBestiary/SandSpitterBestiary",
+            Priority = 1,
             Crafts =
             [
                 "Create Currency Items: Orb of Fusing",
@@ -381,6 +421,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Widow",
             Path = "Metadata/Monsters/LeagueBestiary/Spider5Bestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Gloves"
@@ -390,6 +431,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Rhoa",
             Path = "Metadata/Monsters/LeagueBestiary/RhoaBestiary",
+            Priority = 1,
             Crafts =
             [
                 "Create Currency Items: A Stack of 8 Chromatic Orbs"
@@ -399,6 +441,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Scorpion",
             Path = "Metadata/Monsters/LeagueBestiary/BlackScorpionBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Corrupt an Item: Double Corrupt a Map",
@@ -409,6 +452,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Flame Hellion Alpha",
             Path = "Metadata/Monsters/LeagueBestiary/HellionBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Ring"
@@ -418,6 +462,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Chieftain",
             Path = "Metadata/Monsters/LeagueBestiary/BestiaryMonkeyChiefBlood",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Amulet"
@@ -427,6 +472,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Retch",
             Path = "Metadata/Monsters/LeagueBestiary/KiwethBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Boots"
@@ -436,6 +482,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Goatman",
             Path = "Metadata/Monsters/LeagueBestiary/GoatmanLeapSlamBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Flask"
@@ -445,6 +492,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Saqawine Blood Viper",
             Path = "Metadata/Monsters/LeagueBestiary/SnakeBestiary2",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Sword or Axe",
@@ -455,6 +503,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Fenumal Scrabbler",
             Path = "Metadata/Monsters/LeagueBestiary/SandLeaperBestiary",
+            Priority = -1,
             Crafts =
             [
                 "Create a Unique: Wand",
@@ -465,6 +514,7 @@ public static class BeastsDatabase
         {
             DisplayName = "Farric Gargantuan",
             Path = "Metadata/Monsters/LeagueBestiary/BeastCaveBestiary",
+            Priority = 1,
             Crafts =
             [
                 "Create Currency Items: A Stack of 3 Orbs of Horizons",
